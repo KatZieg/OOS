@@ -36,3 +36,7 @@ for i in g_drei:
 for i in l_drei:
     print(i)
 
+#dictionary comprehension
+d_eins = {a: len(a) for a in ('Hello', 'World', 'am', 'Mittwoch')}
+
+print(d_eins)
