@@ -4,7 +4,9 @@
 __author__ = 'K. Ziegler'
 
 '''
-List Comprehension
+List Comprehension = Listenkurzform
+um Operationen auf Listen in möglichst kurze Form zu fassen
+nur sinnvoll wenn noch lesbar
 '''
 
 l_eins = []
