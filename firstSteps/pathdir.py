@@ -32,20 +32,4 @@ print(os.path.isdir(gesuchtes_verzeichnis))
 '''
 
 
-def eingabeVerwertung(x):
-    #bei Verzeichnisnamen, rekursiv
-    if os.path.isdir(x):
-        print(os.listdir(x))
-        for i in os.listdir(x):
-            eingabeVerwertung(i)
-            return print(i)
-
-    #bei Dateinamen
-    if os.path.isfile(x):
-        print(x)
-
-if __name__ == '__main__':
-    eingabe = input("Bitte einen Verzeichnisnamen eingeben:")
-    eingabeVerwertung(eingabe)
-
 
